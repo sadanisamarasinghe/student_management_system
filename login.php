@@ -1,7 +1,7 @@
 <?php
 include "./header.php";
 include "./navbar1.php";
-include "./footer.php";
+
 ?>
 <form action="./script.php" method="post">
     <label for="LoginUsername">Username:</label>
@@ -13,3 +13,7 @@ include "./footer.php";
     <input type="submit" value="Login" name="loginButton">
 
 </form>
+
+<?php
+include "./footer.php";
+?>
